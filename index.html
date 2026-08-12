@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Digital | Some Coffe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Cambiamos a Courgette (elegante, cursiva pero estructurada) y mantenemos Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fondo Animado Minimalista -->
+    <div class="bg-animation">
+        <div class="floating-icon icon-1">☕</div>
+        <div class="floating-icon icon-2">🥐</div>
+        <div class="floating-icon icon-3">🥪</div>
+        <div class="floating-icon icon-4">🍰</div>
+        <div class="floating-icon icon-5">☕</div>
+        <div class="floating-icon icon-6">🥨</div>
+    </div>
+
+    <header class="header">
+        <div class="logo-wrapper">
+            <img src="/SOMECOFFE/assets/logo-some-coffe.jpg" alt="Logo Some Coffe" class="brand-logo">
+        </div>
+        <h1>SOME COFFE</h1>
+        <p class="subtitle">Especialidad & Tradición</p>
+    </header>
+
+    <main class="menu-container">
+
+        <!-- Categoría 1 -->
+        <h2 class="category-title">Bebidas Calientes</h2>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Espresso" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Espresso Doble</h3>
+                </div>
+                <p>Extracción intensa de nuestra mezcla de la casa.</p>
+                <div class="item-price">$35</div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Latte" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Latte Vainilla</h3>
+                    <span class="badge">Favorito</span>
+                </div>
+                <p>Leche texturizada y un toque dulce de vainilla.</p>
+                <div class="item-price">$65</div>
+            </div>
+        </div>
+
+        <!-- Categoría 2 -->
+        <h2 class="category-title">Bebidas Frías</h2>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Frappé" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Frappé Mocha</h3>
+                    <span class="badge">Top</span>
+                </div>
+                <p>Chocolate amargo, espresso y crema batida.</p>
+                <div class="item-price">$75</div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Cold Brew" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Cold Brew</h3>
+                </div>
+                <p>Café extraído en frío durante 18 horas.</p>
+                <div class="item-price">$55</div>
+            </div>
+        </div>
+
+        <!-- Categoría 3 -->
+        <h2 class="category-title">Brunches</h2>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Panini" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Panini de Pavo</h3>
+                </div>
+                <p>Pavo, queso gouda, espinacas y aderezo en ciabatta.</p>
+                <div class="item-price">$110</div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Bagel" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Bagel Salmón</h3>
+                </div>
+                <p>Láminas de salmón ahumado y queso crema en bagel tostado.</p>
+                <div class="item-price">$125</div>
+            </div>
+        </div>
+
+        <!-- Categoría 4 -->
+        <h2 class="category-title">Snacks & Repostería</h2>
+
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1533134242443-d4fd01530ae1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                alt="Cheesecake" class="item-image">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>Cheesecake</h3>
+                </div>
+                <p>Cremoso pastel de queso al estilo Nueva York.</p>
+                <div class="item-price">$75</div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="floating-cta">
+        <a href="#" class="btn-whatsapp">📲 Hacer un pedido</a>
+    </div>
+
+</body>
+
+</html>
